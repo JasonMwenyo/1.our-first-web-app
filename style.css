@@ -23,24 +23,42 @@ body{
     height: 40px;
     background-color:#521751;
     color: white;
-    padding: 10px; 
+    padding: 10px 0px; 
     margin: 0px;
     text-align: center;
+}
+.navigation{
+    text-align: center;
+    padding: 0px;
+}
+
+/* nav */
+.navigation li, .navigation a{
+    display: inline-block;
+    width: 70px;
+    background-color: #888673;
 }
 /* Main */
 .trip-title {
     background-color: #da721e;
-    padding: 10px; 
+    /* padding: 10px; */
 }
 
 .trip-title p{
     background-color: #ffffff;
-    margin: 0px;      
+    margin: 0px;  
+    display: inline-block;   
+    width: 50%;
 }
 
-/*footer*/
 .feedback{
     background-color: #521751;
     color: white;
     text-align: center;
+}
+
+/*footer*/
+.review-clients p, .review-clients img{
+    display: inline;
+    vertical-align: middle;
 }
