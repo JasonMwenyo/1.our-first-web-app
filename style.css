@@ -1,6 +1,6 @@
 html{
     background-color: rgb(236, 236, 236);
-  
+
 }
 
 a {
@@ -23,10 +23,11 @@ body{
     height: 40px;
     background-color:#521751;
     color: white;
-    padding: 10px 0px; 
+    padding: 10px 0px;
     margin: 0px;
     text-align: center;
 }
+
 .navigation{
     text-align: center;
     padding: 0px;
@@ -42,13 +43,15 @@ body{
 .trip-title {
     background-color: #da721e;
     /* padding: 10px; */
+    display: flex;
 }
 
 .trip-title p{
-    background-color: #ffffff;
-    margin: 0px;  
-    display: inline-block;   
+    background-color: #521751;
+    margin: 0px;
     width: 50%;
+    color: white;
+    text-align: center;
 }
 
 .feedback{
@@ -57,8 +60,16 @@ body{
     text-align: center;
 }
 
+.tripimages{
+    display: flex;
+}
+
+.tripimages img{
+    width: 50%;
+}
+
 /*footer*/
 .review-clients p, .review-clients img{
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
 }
