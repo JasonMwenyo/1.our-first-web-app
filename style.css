@@ -65,10 +65,12 @@ body{
 
 .tripimages{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .tripimages img{
     width: 50%;
+    min-width: 200px;
 }
 
 /*footer*/
